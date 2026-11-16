@@ -142,6 +142,7 @@
               <article class="card wide">
                 <h3>${rich(status.trends.label)}</h3>
                 <p><strong>X:</strong> ${rich(status.trends.x.summary)}</p>
+                ${sourcesList(status.trends.x.sources || [])}
                 <p><strong>TikTok:</strong> ${rich(status.trends.tiktok.summary)}</p>
                 ${sourcesList(status.trends.tiktok.sources)}
                 <p><strong>Reddit:</strong> ${rich(status.trends.reddit.summary)}</p>
